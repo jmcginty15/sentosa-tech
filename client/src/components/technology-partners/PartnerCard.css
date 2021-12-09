@@ -1,0 +1,33 @@
+.PartnerCard {
+    position: relative;
+    height: fit-content;
+}
+
+.PartnerCard-img {
+    border: 3px outset var(--secondary);
+    border-radius: 5px;
+}
+
+.PartnerCard-img:hover {
+    cursor: pointer;
+}
+
+.PartnerCard-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 3px none black;
+    border-radius: 5px;
+    background-color: black;
+    z-index: 5;
+    transition: 250ms;
+    opacity: 0;
+}
+
+.PartnerCard-overlay:hover {
+    cursor: pointer;
+    transition: 250ms;
+    opacity: 0.5;
+}

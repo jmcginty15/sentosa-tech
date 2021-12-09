@@ -1,0 +1,54 @@
+.About {
+    padding-top: 125px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    background-color: var(--background);
+    color: var(--highlight);
+    font-style: italic;
+}
+
+.About-info {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--highlight);
+    color: var(--secondary);
+    border: 3px outset var(--secondary);
+    border-radius: 5px;
+    width: fit-content;
+    max-width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.About-text {
+    text-align: left;
+}
+
+#About-img {
+    border: 3px outset var(--secondary);
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+.About-link {
+    display: block;
+    transition: 250ms;
+    width: fit-content;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    margin: 5px auto 5px auto;
+    background-color: var(--secondary);
+    border: 2px outset var(--secondary);
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--highlight);
+}
+
+.About-link:hover {
+    transition: 250ms;
+    background-color: var(--primary);
+    color: var(--highlight);
+    color: var(--secondary);
+}

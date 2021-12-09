@@ -1,0 +1,77 @@
+.ProductOfferings {
+    padding-top: 125px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    background-color: var(--background);
+    color: var(--highlight);
+    font-style: italic;
+}
+
+.ProductOfferings-info {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--highlight);
+    color: var(--secondary);
+    border: 3px outset var(--secondary);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 1rem;
+}
+
+#ProductOfferings-logo {
+    border: 3px outset var(--secondary);
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ProductOfferings-list {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    row-gap: 40px;
+    column-gap: 0;
+}
+
+@media (min-width: 768px) {
+    .ProductOfferings-list {
+        grid-template-columns: 50% 50%;
+    }
+    
+    .ProductOfferings-info {
+        min-width: 35rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .ProductOfferings-list {
+        grid-template-columns: 100%;
+    }
+
+    .ProductOfferings-info {
+        max-width: 90%;
+    }
+}
+
+.ProductOfferings-title {
+    width: 90%;
+    margin: auto;
+}
+
+.ProductOfferings-subtitle {
+    margin-top: 50px;
+}
+
+.ProductOfferings-link {
+    transition: 250ms;
+    color: var(--secondary);
+}
+
+.ProductOfferings-link:hover {
+    transition: 250ms;
+    color: var(--background);
+}

@@ -1,0 +1,22 @@
+.ContactCard {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--highlight);
+    color: var(--secondary);
+    border: 3px outset var(--secondary);
+    border-radius: 5px;
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.ContactCard-link {
+    transition: 250ms;
+    color: var(--secondary);
+}
+
+.ContactCard-link:hover {
+    transition: 250ms;
+    color: var(--background);
+}

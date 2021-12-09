@@ -1,0 +1,29 @@
+.ConsultingServices {
+    padding-top: 125px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    background-color: var(--background);
+    color: var(--highlight);
+    font-style: italic;
+}
+
+.ConsultingServices-info {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--highlight);
+    color: var(--secondary);
+    border: 3px outset var(--secondary);
+    border-radius: 5px;
+    width: fit-content;
+    max-width: 90%;
+    padding: 1rem;
+    text-align: left;
+}
+
+.ConsultingServices-title {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}

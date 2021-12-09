@@ -1,0 +1,54 @@
+.Home {
+    padding: 125px 1rem 50px 1rem;
+    min-height: 100vh;
+    background-color: var(--background);
+    color: var(--highlight);
+    font-style: italic;
+}
+
+.Home-content {
+    transition: 250ms;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--highlight);
+    color: var(--secondary);
+    border: 3px outset var(--secondary);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.Home-content:hover {
+    transition: 250ms;
+    cursor: pointer;
+    color: var(--highlight);
+    background-color: var(--secondary);
+    border-color: var(--highlight);
+}
+
+.Home-product-list {
+    margin-top: 1.5rem;
+    display: grid;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .Home-content {
+        min-width: 35rem;
+    }
+
+    .Home-product-list {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Home-content {
+        max-width: 90%;
+    }
+
+    .Home-product-list {
+        grid-template-columns: 100%;
+    }
+}

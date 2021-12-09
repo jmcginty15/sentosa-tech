@@ -1,0 +1,14 @@
+.JobCard {
+    width: 100%;
+    margin-top: 3rem;
+    background-color: var(--highlight);
+    color: var(--secondary);
+    border: 3px outset var(--secondary);
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: left;
+}
+
+.JobCard-title {
+    text-align: center;
+}
