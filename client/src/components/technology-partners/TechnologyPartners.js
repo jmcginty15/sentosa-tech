@@ -7,7 +7,7 @@ const TechnologyPartners = () => {
         <div className="TechnologyPartners">
             <h1>Technology Partners</h1>
             <div className="TechnologyPartners-info">
-                Sentosa Technology actively supports research and development at the academic level. Recent projects includ bittorrent detection and anti-piracy strategies.
+                Sentosa Technology actively supports research and development at the academic level. Recent projects include bittorrent detection and anti-piracy strategies.
             </div>
             <div className="TechnologyPartners-list">
                 {partners.map(partner => <PartnerCard partner={partner} key={partner.id} />)}
